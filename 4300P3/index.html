@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./form.css">
+		<script type="text/javascript" src="./forms.js"> </script>
+	</head>
+	<body>
+		<script>
+			/*function capFirst(){
+				var s = document.getElementById("first").value;
+				s = s.charAt(0).toUpperCase() + s.slice(1);
+				document.getElementById("first").value = s;
+			}
+			
+			function capLast(){
+				var s = document.getElementById("last").value;
+				s = s.charAt(0).toUpperCase() + s.slice(1);
+				document.getElementById("last").value = s;
+			}*/
+		</script>
+		<div>
+			<div id="form">
+				Please tell us who you are(Georgia Residents Only)<br>
+				<form id="forms">
+					First name <input type="text" name="firstname" id="first" onblur="capFirst()"> 
+					Last name <input type="text" id="last" name="firstname" onblur="capLast()"> <br>
+					Telephone <input type="text" name="telephone" id="tel" onblur="formTel()"> <br>
+					City <input type="text" name="city" id="city" onkeyup="checkCity()"> Zip code: 
+					<select id="zip" placeholder="Zip Code">
+						<option value="" disabled selected> Zip Code </option>
+					</select>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

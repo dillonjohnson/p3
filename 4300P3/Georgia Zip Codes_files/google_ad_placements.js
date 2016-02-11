@@ -1,0 +1,2 @@
+<!-- hide script from old browsers
+googletag.cmd.push(function(){googletag.defineSlot('/1008298/BrainyZip_ros_120x600',[120,600],'div-gpt-ad-1402674805815-0').addService(googletag.pubads());googletag.defineSlot('/1008298/BrainyZip_ros_300x250',[300,250],'div-gpt-ad-1402674805815-1').addService(googletag.pubads());googletag.defineSlot('/1008298/BrainyZip_ros_728x90',[728,90],'div-gpt-ad-1402674805815-2').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.enableServices();});
